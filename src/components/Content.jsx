@@ -1,4 +1,5 @@
 import React from "react";
+import Image1 from "../assets/image1.jpg";
 
 const Content = () => {
   return (
@@ -19,9 +20,9 @@ const Content = () => {
           odio. Praesent libero. Sed cursus ante dapibus diam.
         </p>
         <img
-          src="https://via.placeholder.com/800x400"
+          src={Image1}
           alt="Mission"
-          className="w-full rounded-lg shadow-lg"
+          className="w-full rounded-lg shadow-lg h-50%"
         />
       </section>
 
