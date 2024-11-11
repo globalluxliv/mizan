@@ -21,7 +21,6 @@ const App = () => {
         {/* Optional: Handle 404 */}
         {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>
-      <Footer />
     </Router>
   );
 };
