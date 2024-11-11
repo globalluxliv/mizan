@@ -47,7 +47,7 @@ const Footer = () => {
           </div>
           <hr className="border-gray-600 mt-6" />
           <p className="w-full text-center mt-4 text-gray-600 text-xs">
-            Copyright © 2020 Mizan Humanity Inc.
+            Copyright © 20204 Mizan Humanity Inc.
           </p>
         </div>
       </div>
