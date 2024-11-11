@@ -1,10 +1,14 @@
 import React from "react";
+import { useNavigate } from "react-router-dom"; // Import useNavigate for routing
+
 import Image1 from "../assets/image1.jpg";
 import Water from "../assets/water.jpg";
 import Education from "../assets/education.jpg";
 import Disaster from "../assets/disaster.jpg";
 
 const Content = () => {
+  const navigate = useNavigate(); // Initialize navigate function
+
   return (
     <div className="bg-gray-50 text-gray-800">
       {/* Header Section */}
@@ -129,7 +133,10 @@ const Content = () => {
           communities worldwide. Join us in creating lasting change. Every
           contribution, big or small, makes a meaningful impact.
         </p>
-        <button className="bg-white text-indigo-600 px-6 sm:px-8 py-2 sm:py-3 rounded-full font-semibold hover:bg-gray-200 transition duration-200">
+        <button
+          onClick={() => navigate("/donate")} // This will navigate to the "/donate" route
+          className="bg-white text-indigo-600 px-6 sm:px-8 py-2 sm:py-3 rounded-full font-semibold hover:bg-gray-200 transition duration-200"
+        >
           Donate Now
         </button>
       </section>
