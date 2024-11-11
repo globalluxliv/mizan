@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/mizan">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
