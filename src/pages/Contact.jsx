@@ -17,7 +17,7 @@ const Contact = () => {
             Email:
           </p>
           <p className="text-gray-600 dark:text-gray-400">
-            info@mizancharity.org
+            Info@mizanhumanity.com
           </p>
         </div>
 
@@ -33,8 +33,8 @@ const Contact = () => {
             Address:
           </p>
           <p className="text-gray-600 dark:text-gray-400">
-            123 Charity Street, <br />
-            New York, NY, 10001
+            295 W Thames St, <br />
+            New York, NY 10280, USA
           </p>
         </div>
       </div>
