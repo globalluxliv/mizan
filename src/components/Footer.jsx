@@ -20,17 +20,12 @@ const Footer = () => {
               About
             </NavLink>
             <NavLink
-              to="/services"
+              to="/donate"
               className="hidden md:block cursor-pointer text-gray-400 hover:text-gray-800 dark:hover:text-white uppercase text-sm"
             >
-              Services
+              Donate
             </NavLink>
-            <NavLink
-              to="/why-us"
-              className="hidden md:block cursor-pointer text-gray-400 hover:text-gray-800 dark:hover:text-white uppercase text-sm"
-            >
-              Why Us
-            </NavLink>
+
             <NavLink
               to="/contact"
               className="hidden md:block cursor-pointer text-gray-400 hover:text-gray-800 dark:hover:text-white uppercase text-sm"

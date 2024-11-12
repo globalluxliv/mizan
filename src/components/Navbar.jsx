@@ -75,6 +75,18 @@ const Navbar = () => {
                 Contact
               </NavLink>
             </li>
+            <li>
+              <NavLink
+                to="/about"
+                className={({ isActive }) =>
+                  isActive
+                    ? "block py-2 px-3 md:p-0 text-blue-700 font-bold"
+                    : "block py-2 px-3 md:p-0 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                }
+              >
+                About Us
+              </NavLink>
+            </li>
           </ul>
         </div>
       </div>
