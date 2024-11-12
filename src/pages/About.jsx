@@ -1,6 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const About = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="bg-gray-50 text-gray-800">
       {/* Hero Section */}
@@ -68,7 +71,10 @@ const About = () => {
             simply spreading the word. Let’s work together to create lasting
             change.
           </p>
-          <button className="bg-white text-indigo-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition duration-200">
+          <button
+            onClick={() => navigate("/donate")}
+            className="bg-white text-indigo-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition duration-200"
+          >
             Get Involved
           </button>
         </div>
