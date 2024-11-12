@@ -1,5 +1,6 @@
 // Donate.jsx
 import React from "react";
+import Qr from "../assets/qr.png";
 
 const Donate = () => {
   return (
@@ -17,8 +18,8 @@ const Donate = () => {
         {/* QR Code Image */}
         <div className="flex justify-center mb-6">
           <img
-            src="/path/to/zelle-qr-code.png"
-            alt="Zelle QR Code"
+            src={Qr}
+            alt="QR Code"
             className="w-48 h-48 rounded-lg shadow-md"
           />
         </div>
